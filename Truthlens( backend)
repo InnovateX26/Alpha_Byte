@@ -63,3 +63,5 @@ if not ret:
             scores.append(ai_score)
         count += 1
     cap.release()
+ if not scores:
+        return {"error": "Video processing failed"}
