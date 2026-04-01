@@ -30,3 +30,7 @@ def preprocess(image):
     image = cv2.resize(image, (224, 224))
     image = image / 255.0
     return np.expand_dims(image, axis=0)
+def analyze_image(path):
+img=cv2.imread(path)
+if img is None:
+return{"error":"Invalid image file"}
