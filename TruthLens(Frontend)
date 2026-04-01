@@ -20,3 +20,7 @@ display: block;
 margin: 20px auto;
 animation: pulseGlow 1s infinte alternate;
 }
+logo:hover{
+transform: scale(1.05);
+filter: drop-shadow(0 0 20px #76dce9);
+}
