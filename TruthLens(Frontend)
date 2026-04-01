@@ -161,4 +161,7 @@ URL.createObjectURL(file);
  }
 };
 
+function uploadFile(){
+    const file =
+document.getElementByld("fileInput").files[0];
 
