@@ -50,3 +50,10 @@ project/
 │── training.py          # Model training script
 │── test_model.py        # Model testing / inference script
 │── dataset/             # CIFAKE dataset
+
+## Model Training
+This script is responsible for:
+1> loading dataset(CIFAKE)
+2> Pre processing images
+3> Traning the CNN model
+4> Saving the Trained model
