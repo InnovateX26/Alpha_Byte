@@ -148,5 +148,10 @@ document.getElementByld("videoPreview:);
 input.onchange = () =>{
   const file = input.files[0];
 if(!file) return;
-
+// preview
+    if (file.type.startsWith("image")) {
+        previewImg.src = URL.createObjectURL(file);
+        previewImg.style.display = "block";
+        previewVid.style.display = "none";
+    } else {
 
