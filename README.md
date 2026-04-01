@@ -63,3 +63,7 @@ This script is responsible for:
 2> Train-validation split
 3> Lightweight CNN architecture
 4> Model checkpoint saving
+
+## How to run Model training 
+1> Run training.py file
+2> Training model should save in model/saved_model/
