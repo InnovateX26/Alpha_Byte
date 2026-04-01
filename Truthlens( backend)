@@ -82,3 +82,19 @@ def upload():
  file = request.files["file"]
     if file.filename == '':
         return jsonify({"error": "No selected file"}), 400
+ path = os.path.join(UPLOAD_FOLDER, file.filename)
+    file.save(path)
+
+    try:
+        if file.filename.lower().endswith((".jpg", ".png", ".jpeg")):
+            result = analyze_image(path)
+        elif file.filename.lower().endswith((".mp4", ".avi", ".mov")):
+            result = analyze_video(path)
+        else:
+            return jsonify({"error": "Unsupported format"}), 400
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+if _name_ == "_main_":
+    app.run(host="0.0.0.0", port=5000, debug=True)
