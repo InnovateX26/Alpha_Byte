@@ -42,3 +42,11 @@ dataset/
 4) Output: Binary classification(Fake or Real)
 5) Frontend and backend code are inlined
 
+## project structure
+project/
+│── model/                # Saved trained model
+│   └── saved_model/
+│
+│── training.py          # Model training script
+│── test_model.py        # Model testing / inference script
+│── dataset/             # CIFAKE dataset
