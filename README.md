@@ -70,7 +70,20 @@ This script is responsible for:
 
 ## Model testing
 1> This script is used to test the trained model on new images
-# What if does :
+### What it does :
 loads trained model
 take input image
 predict fake % and real %
+
+## How to run model testing
+Python test_model.py
+## Model folder 
+model/
+└── saved_model/
+    ├── assets/
+    ├── variables/
+    └── saved_model.pb
+
+Model is saved using TensorFlow format 
+Can be directly loaded in Backend (Flask API)
+
