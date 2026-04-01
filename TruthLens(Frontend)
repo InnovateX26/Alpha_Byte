@@ -24,3 +24,7 @@ logo:hover{
 transform: scale(1.05);
 filter: drop-shadow(0 0 20px #76dce9);
 }
+.quote{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
