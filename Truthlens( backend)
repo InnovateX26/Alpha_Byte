@@ -8,3 +8,5 @@ import mediapipe as mp
 
 app = Flask(_name_)
 CORS(app)
+Upload_Folder="uploads"
+os.makedirs(UPLOAD_FOLDER,exist_ok=True)
