@@ -65,3 +65,10 @@ button:hover{
   gap: 30px;
   margin: 30px;
 }
+/*CARD*/ 
+.card{
+  width: 600px;
+  background: rgba(255,255,255,0.08);
+  padding: 30px;
+  border-radius: 20px;
+}
