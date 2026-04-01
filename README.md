@@ -86,4 +86,10 @@ model/
 
 Model is saved using TensorFlow format 
 Can be directly loaded in Backend (Flask API)
-
+## training Workflow
+1> Download CIFAKE dataset
+2> Place dataset inside dataset
+3> Run training script 
+4> Model gets saved automatically 
+5> Use test_model.py for validation
+6> Integrate model into backend
