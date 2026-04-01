@@ -37,3 +37,6 @@ filter: drop-shadow(0 0 20px #76dce9);
   border: 2px dashed #dashed #555;
   border-radius: 20px;
 }
+.upload-box:hover{
+  border-color: #00ff99;
+}
