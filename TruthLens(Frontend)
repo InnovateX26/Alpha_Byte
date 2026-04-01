@@ -169,3 +169,5 @@ if(!file){
    alert("Please select afile first");
 return;
 }
+const formdata = new FormData();
+formData.append("file",file);
