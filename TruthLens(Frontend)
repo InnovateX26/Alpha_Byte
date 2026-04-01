@@ -138,3 +138,11 @@ style="display:none;"></video>
  </div>
 
 </div>
+
+<script>
+const input=
+document.getElementByld("fileInput");
+const previewImg =
+document.getElementByld("videoPreview:);
+
+
