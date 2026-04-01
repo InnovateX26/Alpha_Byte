@@ -10,3 +10,6 @@ app = Flask(_name_)
 CORS(app)
 Upload_Folder="uploads"
 os.makedirs(UPLOAD_FOLDER,exist_ok=True)
+mp_face =
+mp.solutions.face_detection
+face_detector = mp_face.FaceDetection(min_detection_confidence=0.5)
