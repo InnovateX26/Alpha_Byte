@@ -65,3 +65,5 @@ if not ret:
     cap.release()
  if not scores:
         return {"error": "Video processing failed"}
+avg_score = float(np.mean(scores))
+    prediction = "AI Generated" if avg_score > 0.5 else "Real"
