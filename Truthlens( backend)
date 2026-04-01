@@ -39,3 +39,6 @@ results =
 face_detector.process(rgb)
 face_flag = 1 if results.detections
 else 0
+processed = preprocess(img)
+ai_score =
+model.predict(processed)[0][0]
