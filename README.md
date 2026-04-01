@@ -19,4 +19,12 @@ AI content is increasing very rapidly because of this people can't identify real
 8)Backend API using Flask
 9)Support image or video upload for prediction
 
+## Dataset 
+This project is trained on the CIFAKE datafake.
+It includes :
+1)Real world image
+2)AI generated image
+
+
+
 
