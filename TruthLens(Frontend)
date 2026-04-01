@@ -89,3 +89,10 @@ img, video{
    border-radius: 10px;
   overflow: hidden;
 }
+.progress{
+   height: 100%;
+   width: 0%;
+   height: 3px;
+   background: #00ff99;
+   animation: scan 3s infinite;
+}
