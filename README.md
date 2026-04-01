@@ -40,4 +40,5 @@ dataset/
 2) Framework : TensorFlow/Keras
 3) Input shape : 224*224*3
 4) Output: Binary classification(Fake or Real)
+5) Frontend and backend code are inlined
 
