@@ -173,3 +173,5 @@ const formdata = new FormData();
 formData.append("file",file);
 
 document.getElementByld("prediction").innerText="Processing...";
+document.getElementByld("percentText").innerText="";
+
