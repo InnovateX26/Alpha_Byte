@@ -40,3 +40,10 @@ filter: drop-shadow(0 0 20px #76dce9);
 .upload-box:hover{
   border-color: #00ff99;
 }
+input[type="file"]{
+   margin-top: 10px;
+   padding: 8px;
+   background: white;
+   color;black;
+   border-radius: 5px;
+}
