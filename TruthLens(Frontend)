@@ -131,3 +131,10 @@ style="display:none;"></video>
 <h3 id="prediction"></h3>
 <p i="percentText"></p>
 
+<div class="progress-bar">
+   <div id="progressBar" class="progress">
+</div>
+  </div>
+ </div>
+
+</div>
