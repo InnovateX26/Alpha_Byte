@@ -175,3 +175,14 @@ formData.append("file",file);
 document.getElementByld("prediction").innerText="Processing...";
 document.getElementByld("percentText").innerText="";
 
+   fetch("http://127.0.0.1:5000/upload",{
+      method:"POST".
+      body:fromData
+})
+.then(response => 
+response.json())
+.then(data => {
+  if(data.error){
+     alert(data.error);
+     return;
+}
