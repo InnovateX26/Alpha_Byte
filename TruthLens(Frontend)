@@ -145,4 +145,8 @@ document.getElementByld("fileInput");
 const previewImg =
 document.getElementByld("videoPreview:);
 
+input.onchange = () =>{
+  const file = input.files[0];
+if(!file) return;
+
 
