@@ -57,3 +57,5 @@ while True:
         ret, frame = cap.read()
 if not ret:
             break
+ if count % 30 == 0:
+            processed = preprocess(frame)
