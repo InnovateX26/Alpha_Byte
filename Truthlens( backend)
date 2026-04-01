@@ -26,3 +26,7 @@ def create_model():
     ])
     return model
 model = create_model()
+def preprocess(image):
+    image = cv2.resize(image, (224, 224))
+    image = image / 255.0
+    return np.expand_dims(image, axis=0)
