@@ -55,7 +55,7 @@ project/
 This script is responsible for:
 1> loading dataset(CIFAKE)
 2> Pre processing images
-3> Traning the CNN model
+3> Training the CNN model
 4> Saving the Trained model
 
 ## Key features of MOdel Training
