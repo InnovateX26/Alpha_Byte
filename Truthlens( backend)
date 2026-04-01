@@ -1,4 +1,7 @@
-import os
+def analyze_video(path):
+    cap = cv2.VideoCapture(path)
+    scores = []
+    count = 0import os
 import cv2
 import numpyas np
 from flask import Flask,request,jsonify
