@@ -171,3 +171,5 @@ return;
 }
 const formdata = new FormData();
 formData.append("file",file);
+
+document.getElementByld("prediction").innerText="Processing...";
