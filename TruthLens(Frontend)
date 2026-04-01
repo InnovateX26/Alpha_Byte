@@ -154,4 +154,11 @@ if(!file) return;
         previewImg.style.display = "block";
         previewVid.style.display = "none";
     } else {
+        previewVid.src=
+URL.createObjectURL(file);
+    previewVid.style.display = "block";
+    previewImg.style.display ="none";
+ }
+};
+
 
