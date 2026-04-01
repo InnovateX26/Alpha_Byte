@@ -70,3 +70,5 @@ avg_score = float(np.mean(scores))
  return {
         "prediction": prediction,
         "ai_percentage": round(avg_score * 100, 2),
+"real_percentage": round((1 - avg_score) * 100, 2)
+    }
