@@ -72,3 +72,6 @@ avg_score = float(np.mean(scores))
         "ai_percentage": round(avg_score * 100, 2),
 "real_percentage": round((1 - avg_score) * 100, 2)
     }
+@app.route("/")
+def home():
+    return jsonify({"status": "Backend is running"})
