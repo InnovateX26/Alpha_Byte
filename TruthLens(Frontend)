@@ -4,3 +4,11 @@
 <meta charset="UTF-8">
 <title>TruthLens AI Detector</title>
 
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#0a0f2c, #1e4db7);
+  color: white;
+  text-align: center;
+}
