@@ -34,3 +34,5 @@ def analyze_image(path):
 img=cv2.imread(path)
 if img is None:
 return{"error":"Invalid image file"}
+rgb = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+results =
