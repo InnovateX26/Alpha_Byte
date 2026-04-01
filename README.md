@@ -25,6 +25,13 @@ It includes :
 1)Real world image
 2)AI generated image
 
-
-
+dataset/
+│
+├── train/
+│   ├── real/
+│   └── fake/
+│
+├── validation/
+│   ├── real/
+│   └── fake/
 
