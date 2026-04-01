@@ -190,3 +190,9 @@ response.json())
 document.getElementByld("prediction").innerText = data.prediction;
 document.getElementById("percentText").innerText =
             "AI: " + data.ai_percentage + "% | Real: " + data.real_percentage + "%";
+
+document.getElementById("progressBar").style.width = data.ai_percentage + "%";
+
+        if (data.ai_percentage > 50) {
+            document.getElementById("progressBar").style.background = "red";
+        } else {
