@@ -204,3 +204,6 @@ document.getElementById("progressBar").style.background = "limegreen";
         alert("Error connecting to backend");
     });
 }
+</script>
+</body>
+</html>
