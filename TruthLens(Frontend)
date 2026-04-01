@@ -186,3 +186,7 @@ response.json())
      alert(data.error);
      return;
 }
+
+document.getElementByld("prediction").innerText = data.prediction;
+document.getElementById("percentText").innerText =
+            "AI: " + data.ai_percentage + "% | Real: " + data.real_percentage + "%";
