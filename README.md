@@ -35,3 +35,9 @@ dataset/
 │   ├── real/
 │   └── fake/
 
+## Model Architecture
+1) Model type: Convolutional Neural Network(CNN)
+2) Framework : TensorFlow/Keras
+3) Input shape : 224*224*3
+4) Output: Binary classification(Fake or Real)
+
