@@ -196,3 +196,11 @@ document.getElementById("progressBar").style.width = data.ai_percentage + "%";
         if (data.ai_percentage > 50) {
             document.getElementById("progressBar").style.background = "red";
         } else {
+document.getElementById("progressBar").style.background = "limegreen";
+        }
+    })
+    .catch(error => {
+        console.error(error);
+        alert("Error connecting to backend");
+    });
+}
