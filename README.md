@@ -16,3 +16,7 @@ AI content is increasing very rapidly because of this people can't identify real
 5)Designed for real-world usage (social media)
 6)Processes limited frames for faster results
 7)Lightweight architecture for quick response
+8)Backend API using Flask
+9)Support image or video upload for prediction
+
+
