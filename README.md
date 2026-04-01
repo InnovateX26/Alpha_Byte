@@ -67,3 +67,10 @@ This script is responsible for:
 ## How to run Model training 
 1> Run training.py file
 2> Training model should save in model/saved_model/
+
+## Model testing
+1> This script is used to test the trained model on new images
+# What if does :
+loads trained model
+take input image
+predict fake % and real %
