@@ -67,3 +67,6 @@ if not ret:
         return {"error": "Video processing failed"}
 avg_score = float(np.mean(scores))
     prediction = "AI Generated" if avg_score > 0.5 else "Real"
+ return {
+        "prediction": prediction,
+        "ai_percentage": round(avg_score * 100, 2),
