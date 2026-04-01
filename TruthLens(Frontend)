@@ -110,3 +110,11 @@ src="c:\Users\ADMIN\Downloads\project img
 <p class="quote">
 "Not everything you see is real - but the truth is always detectable."
 </p>
+<div class="upload-box">
+Drag & Drop image / video or Click to upload 
+ <br>
+ <input type="file"id="fileinput">
+ <br>
+ <button
+onclick="uploadFile()">Analyze</button>
+</div>
