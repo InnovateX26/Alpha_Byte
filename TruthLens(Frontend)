@@ -118,3 +118,12 @@ Drag & Drop image / video or Click to upload
  <button
 onclick="uploadFile()">Analyze</button>
 </div>
+<!--MAIN CONTENT-->
+<div class="card">
+ <h2>input</h2>
+ <img id="preview" style-"display:none;">
+ <video id="videoPreview"controls
+style="display:none;"></video>
+</div>
+
+
