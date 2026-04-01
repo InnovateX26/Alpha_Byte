@@ -57,3 +57,9 @@ This script is responsible for:
 2> Pre processing images
 3> Traning the CNN model
 4> Saving the Trained model
+
+## Key features of MOdel Training
+1> Data augmentation 
+2> Train-validation split
+3> Lightweight CNN architecture
+4> Model checkpoint saving
