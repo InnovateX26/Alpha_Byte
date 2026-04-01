@@ -96,3 +96,7 @@ img, video{
    background: #00ff99;
    animation: scan 3s infinite;
 }
+@keyframes scan{
+0%Ptop:0;}
+100%{top: 100%;}
+}
