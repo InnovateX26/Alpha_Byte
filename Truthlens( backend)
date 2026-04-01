@@ -79,3 +79,6 @@ def home():
 def upload():
     if "file" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
+ file = request.files["file"]
+    if file.filename == '':
+        return jsonify({"error": "No selected file"}), 400
